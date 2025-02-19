@@ -28,6 +28,6 @@ public class ControladorOla {
     @GetMapping(value = "/getconta")
 
     public Conta getContabyId(@RequestParam("id") long id) {
-        return new Conta(id,"Alexandre","Castelo Branco",123456789,1234,1000.0, LocalDateTime.now());
+        return new Conta(id,"Eric Lima","Castelo Branco",123456789,1234,100000.0, LocalDateTime.now());
     }
 }
